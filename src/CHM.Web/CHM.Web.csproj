@@ -1,0 +1,322 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{F240A6A4-2FFE-4D96-A242-56C526D910C2}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "CHM.Web"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "CHM.Web"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "CHM.HttpHandler"
+                    Project = "{C72062B3-94AB-43B8-B016-A21A329EE29D}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "chm.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node0.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node10.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node11.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node12.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node13.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node14.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node15.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node16.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node17.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node18.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node19.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node20.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node21.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node22.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node23.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node24.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node25.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node26.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node27.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node28.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node29.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node30.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node31.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node32.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node33.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node34.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node35.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node36.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node37.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node38.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node39.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node4.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node40.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node41.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node5.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node6.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node7.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node8.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\images\node9.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\tree\tree.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\tree\tree.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\tree\treenodedot.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\tree\treenodeminus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CHMBrowser\tree\treenodeplus.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
