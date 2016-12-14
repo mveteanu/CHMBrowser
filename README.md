@@ -50,12 +50,15 @@ Screenshots
 -----------
 
 ![A web folder in browse mode](img/i01.png)
+
 A web folder in browse mode
 
 ![Reading a CHM document](img/i02.png)
+
 Reading a CHM document
 
 ![Reading a CHM document](img/i03.png)
+
 Reading a CHM document
 
 
