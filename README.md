@@ -22,20 +22,20 @@ Why publish CHM files online?
 - to make available products documentation to corporate users on company intranet portal;
 - to better control documentation versioning;
 - creating documentation in CHM format helps you target offline customers, while publishing CHM documents on web helps online customers;
-- using CHM browser component users don’t have to download big CHM files. They’ll just browse/search the section they are interested in.
+- using CHM browser component users donâ€™t have to download big CHM files. Theyâ€™ll just browse/search the section they are interested in.
 
 CHM Browser configuration 
 -------------------------
 
 CHM Browser Http Handler is a .NET component (requires Microsoft .NET Framework 1.1+). Configuration of this component is achieved via editing a simple XML format file: Web.config
 
-One of the most important features that you’ll want to configure here is a YES/NO parameter that specifies if download of original CHM file is allowed. If download is not allowed, remote clients will be able to only browse the content of CHM files without downloading the entire file.
+One of the most important features that youâ€™ll want to configure here is a YES/NO parameter that specifies if download of original CHM file is allowed. If download is not allowed, remote clients will be able to only browse the content of CHM files without downloading the entire file.
 
 Example:
 
-Let’s suppose we have a CHM file (tutorial.chm ) hosted on a web server with this component.
+Letâ€™s suppose we have a CHM file (tutorial.chm ) hosted on a web server with this component.
 
-To download the CHM (supposing you are allowed to) you’ll have to point your browser to:
+To download the CHM (supposing you are allowed to) youâ€™ll have to point your browser to:
 
 http://server/yourpath/tutorial.chm
 
@@ -50,13 +50,17 @@ Screenshots
 -----------
 
 ![A web folder in browse mode](img/i01.png)
+
 A web folder in browse mode
 
 ![Reading a CHM document](img/i02.png)
+
 Reading a CHM document
 
 ![Reading a CHM document](img/i03.png)
+
 Reading a CHM document
+
 
 Note: This web application would not be possible without the excelent "HtmlHelp library" by Klaus Weisser from https://www.codeproject.com/Articles/6765/HtmlHelp-library-and-example-viewer
 
