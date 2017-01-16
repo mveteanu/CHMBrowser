@@ -64,4 +64,4 @@ Reading a CHM document
 
 Note: This web application would not be possible without the excelent "HtmlHelp library" by Klaus Weisser from https://www.codeproject.com/Articles/6765/HtmlHelp-library-and-example-viewer
 
-![Analytics](https://ga-beacon.appspot.com/UA-2402433-9/beacon.en.html)
+![Analytics](https://ga-beacon.appspot.com/UA-2402433-6/beacon.en.html)
